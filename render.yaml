@@ -6,33 +6,14 @@ services:
   - type: web
     name: aicoaching-backend
     runtime: python
-    region: singapore          # or oregon / frankfurt – pick closest
-    plan: free
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
-    envVars:
-      - key: SECRET_KEY
-        generateValue: true    # Render auto-generates a random secret
-      - key: GOOGLE_API_KEY
-        sync: false            # You must fill this manually in Render dashboard
-      - key: PYTHON_VERSION
-        value: 3.11.9
-
-  # ── Frontend (Next.js) ──────────────────────────────────
-  - type: web
-    name: aicoaching-frontend
-    runtime: node
     region: singapore
     plan: free
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    startCommand: npm run start
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
-      - key: NEXT_PUBLIC_API_BASE
-        fromService:
-          name: aicoaching-backend
-          type: web
-          envVarKey: RENDER_EXTERNAL_URL
-      - key: NODE_VERSION
-        value: 20.11.0
+      - key: SECRET_KEY
+        generateValue: true
+      - key: GOOGLE_API_KEY
+        sync: false            # Fill this manually in Render dashboard
+      - key: PYTHON_VERSION
+        value: 3.11.9
