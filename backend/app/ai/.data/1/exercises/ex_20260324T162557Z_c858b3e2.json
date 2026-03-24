@@ -1,0 +1,142 @@
+{
+  "id": "ex_20260324T162557Z_c858b3e2",
+  "user_id": 1,
+  "topic": "Chương I: Mệnh đề và Tập hợp",
+  "difficulty": 1,
+  "format": "mcq",
+  "items": [
+    {
+      "question": "Trong các phát biểu sau, phát biểu nào sai?",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Hình bình hành ABCD có hai đường chéo bằng nhau là điều kiện cần và đủ để ABCD là hình chữ nhật.",
+        "B. Tam giác ABC có một góc 60° là điều kiện đủ để tam giác ABC đều.",
+        "C. Số nguyên a chia hết cho 3 là điều kiện cần để a chia hết cho 6.",
+        "D. Số 3n – 5 (n ∈ ℕ) là số lẻ là điều kiện đủ để số 6n (n ∈ ℕ) là số chẵn."
+      ],
+      "correct_index": 1,
+      "solution": "A. \"Hình bình hành có hai đường chéo bằng nhau ⇔ là hình chữ nhật\". Đây là một định lý đúng.\n\nB. \"Tam giác có một góc 60°\" (P) là điều kiện đủ cho \"tam giác đều\" (Q). Tương đương P ⇒ Q. Mệnh đề này sai. Một tam giác chỉ có một góc 60° chưa chắc đã đều.\n\nC. \"a chia hết cho 3\" là điều kiện cần cho \"a chia hết cho 6\". Tương đương \"Nếu a chia hết cho 6 thì a chia hết cho 3\". Mệnh đề này đúng.\n\nD. \"3n - 5 là số lẻ\" (P) là điều kiện đủ cho \"6n là số chẵn\" (Q). Tương đương P ⇒ Q. Mệnh đề Q (6n là số ch"
+    },
+    {
+      "question": "Cho mệnh đề P: \"∀x ∈ ℤ, (2x + 1)² không chia hết cho 4\". Mệnh đề P là:",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. ∃x ∈ ℤ, (2x + 1)² chia hết cho 4\".",
+        "B. ∃x ∈ ℤ, (2x + 1)² không chia hết cho 4\".",
+        "C. ∀x ∈ ℤ, (2x + 1)² không chia hết cho 4\".",
+        "D. ∀x ∈ ℤ, (2x + 1)² chia hết cho 4\"."
+      ],
+      "correct_index": 0,
+      "solution": "Mệnh đề P là phủ định của mệnh đề P.\n\nPhủ định của \"∀x ∈ ℤ\" là \"∃x ∈ ℤ\".\n\nPhủ định của \"(2x + 1)² không chia hết cho 4\" là \"(2x + 1)² chia hết cho 4\".\n\nKết hợp lại, mệnh đề phủ định P là: \"∃x ∈ ℤ, (2x + 1)² chia hết cho 4\"."
+    },
+    {
+      "question": "Chọn phát biểu không phải là mệnh đề.",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Số 19 chia hết cho 2.",
+        "B. Hình thoi có hai đường chéo vuông góc.",
+        "C. Hôm nay trời không mưa.",
+        "D. Berlin là thủ đô của Pháp."
+      ],
+      "correct_index": 2,
+      "solution": "A. Là một mệnh đề (sai).\n\nB. Là một mệnh đề (đúng).\n\nC. Đây là một câu khẳng định có tính đúng sai phụ thuộc vào thời điểm và địa điểm nói. Nó không có giá trị chân lý cố định, khách quan. Trong toán học, những câu như vậy thường không được xem là mệnh đề.\n\nD. Là một mệnh đề (sai, Paris mới là thủ đô của Pháp)."
+    },
+    {
+      "question": "Cách phát biểu nào sau đây không thể dùng để phát biểu mệnh đề: A ⇒",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Nếu A thì",
+        "B.",
+        "C. A là điều kiện cần để có",
+        "D. A là điều kiện đủ để có"
+      ],
+      "correct_index": 2,
+      "solution": "Mệnh đề kéo theo A ⇒ B có thể được phát biểu theo nhiều cách:\n\n\"Nếu A thì B\" (định nghĩa cơ bản).\n\n\"A kéo theo B\".\n\n\"A là điều kiện đủ để có B\".\n\n\"B là điều kiện cần để có A\".\n\nCách phát biểu C: \"A là điều kiện cần để có B\" tương đương với mệnh đề B ⇒ A, chứ không phải A ⇒ B."
+    },
+    {
+      "question": "Tìm mệnh đề đúng?",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. ∃x ∈ ℝ : x² + 3 = 0\".",
+        "B. ∀x ∈ ℤ : x⁵ > x²\".",
+        "C. ∀x ∈ ℕ : (2x + 1)² – 1 chia hết cho 4\".",
+        "D. ∃x ∈ ℝ : x⁴ + 3x² + 2 = 0\"."
+      ],
+      "correct_index": 2,
+      "solution": "A. Sai. x² = -3 vô nghiệm trong ℝ.\n\nB. Sai. Với x = 0, 0⁵ > 0² là sai. Với x = 1, 1⁵ > 1² là sai. Với x = -1, (-1)⁵ > (-1)² ⇔ -1 > 1 là sai.\n\nC. Đúng. Ta có (2x + 1)² – 1 = (4x² + 4x + 1) – 1 = 4x² + 4x = 4x(x + 1). Biểu thức này luôn chia hết cho 4 với mọi x ∈ ℕ.\n\nD. Sai. Đặt t = x², t ≥ 0. Phương trình trở thành t² + 3t + 2 = 0, có nghiệm t = -1 và t = -2. Cả hai nghiệm đều không thỏa mãn t ≥ 0. Vậy phương trình vô nghiệm."
+    },
+    {
+      "question": "Trong các mệnh đề sau, mệnh đề nào đúng?",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Nếu em chăm chỉ thì em thành công.",
+        "B. Nếu a chia hết cho 9 thì a chia hết cho 3.",
+        "C. Nếu một tam giác có một góc bằng 60° thì tam giác đó đều.",
+        "D. Nếu a ≥ b thì a² ≥ b²."
+      ],
+      "correct_index": 1,
+      "solution": "A. Đây là mệnh đề không thuộc toán học, tính đúng sai không thể xác định chặt chẽ.\n\nB. Đúng. Nếu a chia hết cho 9 thì a = 9k với k là số nguyên. Suy ra a = 3(3k), do đó a chia hết cho 3.\n\nC. Sai. Một tam giác có một góc 60° không đủ để kết luận nó là tam giác đều.\n\nD. Sai. Mệnh đề này không đúng với số âm. Ví dụ: a = -3, b = -4. Ta có -3 ≥ -4, nhưng (-3)² = 9 và (-4)² = 16, do đó 9 < 16, tức là a² < b²."
+    },
+    {
+      "question": "Mệnh đề phủ định của mệnh đề P = “∀x ∈ ℕ : x² + x – 1 > 0” là:",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. P = “∃x ∈ ℕ : x² + x – 1 > 0”.",
+        "B. P = “∃x ∈ ℕ : x² + x – 1 < 0”.",
+        "C. P = “∃x ∈ ℕ : x² + x – 1 ≤ 0”.",
+        "D. P = “∀x ∈ ℕ : x² + x – 1 ≤ 0”."
+      ],
+      "correct_index": 2,
+      "solution": "Phủ định của \"∀x ∈ ℕ\" là \"∃x ∈ ℕ\".\n\nPhủ định của \"x² + x – 1 > 0\" là \"x² + x – 1 ≤ 0\".\n\nKết hợp lại, mệnh đề phủ định là: \"∃x ∈ ℕ : x² + x – 1 ≤ 0\"."
+    },
+    {
+      "question": "Mệnh đề P ⇔ Q chỉ đúng khi nào? (Hãy chọn đáp án chính xác nhất)",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Cả P và Q đều đúng.",
+        "B. Cả P và Q đều sai.",
+        "C. Cả P và Q đều cùng đúng hoặc cùng sai.",
+        "D. Cả P và Q đều vừa đúng vừa sai."
+      ],
+      "correct_index": 2,
+      "solution": "Mệnh đề tương đương P ⇔ Q được định nghĩa là (P ⇒ Q) và (Q ⇒ P).\n\nDựa trên bảng chân lý của phép tương đương logic, P ⇔ Q chỉ đúng khi P và Q có cùng giá trị chân lý. Tức là:\n\nP đúng và Q đúng.\n\nP sai và Q sai.\n\nĐáp án C gộp cả hai trường hợp này."
+    },
+    {
+      "question": "Phát biểu nào sau đây là sai?",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Điều kiện cần và đủ để tập A có n phần tử là tập A có 2ⁿ tập con.",
+        "B. Tập A có 2ⁿ tập con là điều kiện cần để tập A có n phần tử.",
+        "C. Không thể phát biểu mệnh đề : \"Nếu tập A có n phần tử thì tập A có 2ⁿ tập con\" dưới dạng điều kiện cần, điều kiện đủ.",
+        "D. Tập A có n phần tử là điều kiện đủ để tập A có 2ⁿ tập con."
+      ],
+      "correct_index": 2,
+      "solution": "Xét mệnh đề \"Tập A có n phần tử\" (P) và \"Tập A có 2ⁿ tập con\" (Q). Ta có định lý P ⇔ Q là một mệnh đề đúng.\n\nA. Phát biểu \"P là điều kiện cần và đủ để có Q\". Đúng vì P ⇔ Q.\n\nB. Phát biểu \"Q là điều kiện cần để có P\". Đúng vì P ⇒ Q (một trong hai chiều của mệnh đề tương đương).\n\nD. Phát biểu \"P là điều kiện đủ để có Q\". Đúng vì P ⇒ Q.\n\nC. Phát biểu này sai, vì mệnh đề \"Nếu tập A có n phần tử thì tập A có 2ⁿ tập con\" là một mệnh đề tương đương, nên hoàn toàn có thể phát biểu dưới dạng điều kiện cầ"
+    },
+    {
+      "question": "Cho mệnh đề P ⇒ Q: \"Nếu 3² + 1 là số chẵn thì 3 là số lẻ\". Chọn mệnh đề đúng:",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "A. Mệnh đề Q ⇒ P là mệnh đề sai.",
+        "B. Cả mệnh đề P ⇒ Q và Q ⇒ P đều sai.",
+        "C. Mệnh đề P ⇒ Q là mệnh đề sai.",
+        "D. Cả mệnh đề P ⇒ Q và Q ⇒ P đều đúng."
+      ],
+      "correct_index": 3,
+      "solution": "Xét mệnh đề P ⇒ Q:\n\nP: \"3² + 1 là số chẵn\". Ta có 3² + 1 = 10, là số chẵn. Vậy P đúng.\n\nQ: \"3 là số lẻ\". Đây là mệnh đề đúng.\n\nVì P đúng và Q đúng, nên mệnh đề P ⇒ Q đúng.\n\nXét mệnh đề đảo Q ⇒ P: \"Nếu 3 là số lẻ thì 3² + 1 là số chẵn\".\n\nQ đúng, P đúng.\n\nVì Q đúng và P đúng, nên mệnh đề Q ⇒ P đúng.\n\nVậy cả hai mệnh đề P ⇒ Q và Q ⇒ P đều đúng."
+    }
+  ],
+  "contexts": [],
+  "used_model": "artifacts",
+  "created_at": "20260324T162557Z"
+}

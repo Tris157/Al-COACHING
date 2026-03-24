@@ -1,0 +1,142 @@
+{
+  "id": "ex_20260324T162549Z_fc9f2c4c",
+  "user_id": 1,
+  "topic": "Chương I: Mệnh đề và Tập hợp",
+  "difficulty": 5,
+  "format": "mcq",
+  "items": [
+    {
+      "question": "Phủ định của mệnh đề \"∃x ∈ ℝ, x² − x + 1 < 0\" là mệnh đề:",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. ∀x ∈ ℝ, x² − x + 1 ≥ 0\".",
+        "B. ∀x ∈ ℝ, x² − x + 1 < 0\".",
+        "C. ∀x ∈ ℝ, x² − x + 1 > 0\".",
+        "D. ∃x ∈ ℝ, x² − x + 1 ≥ 0\"."
+      ],
+      "correct_index": 0,
+      "solution": "Quy tắc phủ định mệnh đề chứa ký hiệu ∀, ∃: Phủ định của \"∃x ∈ X, P(x)\" là \"∀x ∈ X, P(x)\".\n\nÁp dụng vào mệnh đề đã cho:\n\nPhủ định của \"∃x ∈ ℝ\" là \"∀x ∈ ℝ\".\n\nPhủ định của \"x² − x + 1 < 0\" là \"x² − x + 1 ≥ 0\".\n\nKết hợp lại, mệnh đề phủ định là: \"∀x ∈ ℝ, x² − x + 1 ≥ 0\"."
+    },
+    {
+      "question": "Phủ định của mệnh đề \"∃x ∈ ℚ, x = 1/x\" là mệnh đề:",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. ∃x ∈ ℚ, x ≠ 1/x\".",
+        "B. ∀x ∈ ℚ, x = 1/x\".",
+        "C. ∀x ∉ ℚ, x ≠ 1/x\".",
+        "D. ∀x ∈ ℚ, x ≠ 1/x\"."
+      ],
+      "correct_index": 3,
+      "solution": "Quy tắc phủ định mệnh đề chứa ký hiệu ∀, ∃: Phủ định của \"∃x ∈ X, P(x)\" là \"∀x ∈ X, P(x)\".\n\nÁp dụng vào mệnh đề đã cho:\n\nPhủ định của \"∃x ∈ ℚ\" là \"∀x ∈ ℚ\".\n\nPhủ định của \"x = 1/x\" là \"x ≠ 1/x\".\n\nKết hợp lại, mệnh đề phủ định là: \"∀x ∈ ℚ, x ≠ 1/x\"."
+    },
+    {
+      "question": "Phủ định của mệnh đề “n > 9” là",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. –n > 9\".",
+        "B. –n > –9\".",
+        "C. n < 9\".",
+        "D. n ≤ 9\"."
+      ],
+      "correct_index": 3,
+      "solution": "Phủ định của một mệnh đề chứa dấu so sánh \">\" là mệnh đề chứa dấu \"≤\".\n\nPhủ định của n > 9 là n không lớn hơn 9, tức là n nhỏ hơn hoặc bằng 9.\n\nKý hiệu là: n ≤ 9."
+    },
+    {
+      "question": "Tìm mệnh đề sai.",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. Hình thang ABCD nội tiếp đường tròn (O) ⇔ ABCD là hình thang cân.",
+        "B. 63 chia hết cho 7 ⇒ Hình bình hành có hai đường chéo vuông góc.",
+        "C. Tam giác ABC vuông tại C ⇔ AB² = CA² + CB².",
+        "D. 10 chia hết cho 5 ⇔ Hình vuông có hai đường chéo bằng nhau và vuông góc nhau."
+      ],
+      "correct_index": 1,
+      "solution": "A: Là một tính chất hình học đúng. Hình thang nội tiếp được đường tròn khi và chỉ khi nó là hình thang cân. Mệnh đề tương đương này đúng.\n\nB: Đây là mệnh đề kéo theo \"P ⇒ Q\". P: \"63 chia hết cho 7\" là mệnh đề đúng. Q: \"Hình bình hành có hai đường chéo vuông góc\" (đây là tính chất của hình thoi, không phải mọi hình bình hành) là một mệnh đề sai. Mệnh đề kéo theo có P đúng, Q sai là một mệnh đề sai.\n\nC: Đây là định lý Pythagoras và định lý đảo, là một mệnh đề tương đương đúng.\n\nD: Mệnh đề \"P ⇔ Q\"."
+    },
+    {
+      "question": "Cho hai mệnh đề P và Q. Tìm điều kiện để mệnh đề P ⇒ Q sai.",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. P đúng và Q đúng.",
+        "B. P sai và Q đúng.",
+        "C. P đúng và Q sai.",
+        "D. P sai và Q sai."
+      ],
+      "correct_index": 2,
+      "solution": "Mệnh đề kéo theo \"P ⇒ Q\" (Nếu P thì Q) chỉ sai trong một trường hợp duy nhất: khi mệnh đề P (giả thiết) đúng và mệnh đề Q (kết luận) sai.\n\nTrong tất cả các trường hợp còn lại (P sai; hoặc cả P và Q đều đúng), mệnh đề P ⇒ Q được coi là đúng."
+    },
+    {
+      "question": "Cho mệnh đề chứa biến P(x): \"x + 15 ≤ x²\" với x là số thực. Mệnh đề nào sau đây là mệnh đề đúng?",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. P(2).",
+        "B. P(3).",
+        "C. P(–4).",
+        "D. P(0)."
+      ],
+      "correct_index": 2,
+      "solution": "A. P(2): \"2 + 15 ≤ 2²\" ⇔ \"17 ≤ 4\" (Sai).\n\nB. P(3): \"3 + 15 ≤ 3²\" ⇔ \"18 ≤ 9\" (Sai).\n\nC. P(–4): \"–4 + 15 ≤ (–4)²\" ⇔ \"11 ≤ 16\" (Đúng).\n\nD. P(0): \"0 + 15 ≤ 0²\" ⇔ \"15 ≤ 0\" (Sai)."
+    },
+    {
+      "question": "Mệnh đề phủ định của mệnh đề P: \"∀x ∈ ℝ : x² + 1 > 2x\" là",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. P: \"∃x ∈ ℝ : x² + 1 < 2x\".",
+        "B. P: \"∃x ∈ ℝ : x² + 1 ≤ 2x\".",
+        "C. P: \"∃x ∈ ℝ : x² + 1 > 2x\".",
+        "D. P: \"∀x ∈ ℝ : x² + 1 ≤ 2x\"."
+      ],
+      "correct_index": 1,
+      "solution": "Phủ định của \"∀x ∈ ℝ\" là \"∃x ∈ ℝ\".\n\nPhủ định của \"x² + 1 > 2x\" là \"x² + 1 ≤ 2x\".\n\nKết hợp lại, mệnh đề phủ định là: \"∃x ∈ ℝ : x² + 1 ≤ 2x\"."
+    },
+    {
+      "question": "Phủ định của mệnh đề: \"∃x ∈ ℕ : x² – 4x – 5 > 0\" là",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. ∀x ∈ ℕ : x² – 4x – 5 < 0\".",
+        "B. ∀x ∈ ℕ : x² – 4x – 5 ≤ 0\".",
+        "C. ∀x ∈ ℕ : x² – 4x – 5 ≥ 0\".",
+        "D. ∀x ∈ ℕ : x² – 4x – 5 > 0\"."
+      ],
+      "correct_index": 1,
+      "solution": "Phủ định của \"∃x ∈ ℕ\" là \"∀x ∈ ℕ\".\n\nPhủ định của \"x² – 4x – 5 > 0\" là \"x² – 4x – 5 ≤ 0\".\n\nKết hợp lại ta được: \"∀x ∈ ℕ : x² – 4x – 5 ≤ 0\"."
+    },
+    {
+      "question": "Trong các mệnh đề sau, mệnh đề nào có mệnh đề đảo đúng?",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. Nếu số nguyên n có chữ số tận cùng là 0 thì số nguyên n chia hết cho 5.",
+        "B. Nếu tứ giác ABCD là hình thoi thì tứ giác ABCD có hai đường chéo vuông góc với nhau.",
+        "C. Nếu tứ giác ABCD có hai đường chéo cắt nhau tại trung điểm mỗi đường thì tứ giác ABCD là hình chữ nhật",
+        "D. Nếu tứ giác ABCD là hình chữ nhật thì tứ giác ABCD có hai đường chéo bằng nhau."
+      ],
+      "correct_index": 2,
+      "solution": "Ta xét mệnh đề đảo của từng phương án.\n\nA. Mệnh đề đảo: \"Nếu số nguyên n chia hết cho 5 thì có chữ số tận cùng là 0\". Mệnh đề này sai (ví dụ: n = 15).\n\nB. Mệnh đề đảo: \"Nếu tứ giác ABCD có hai đường chéo vuông góc với nhau thì nó là hình thoi\". Mệnh đề này sai (ví dụ: hình con diều có thể có hai đường chéo vuông góc nhưng không phải hình thoi).\n\nC. Mệnh đề gốc: \"Nếu một tứ giác là hình bình hành thì nó là hình chữ nhật\". Mệnh đề này sai. Mệnh đề đảo: \"Nếu tứ giác ABCD là hình chữ nhật thì nó có"
+    },
+    {
+      "question": "Câu nào trong các câu sau không phải là mệnh đề?",
+      "type": "mcq",
+      "difficulty": 5,
+      "options": [
+        "A. 4/2 = 2.",
+        "B. √2 là một số hữu tỷ.",
+        "C. 2 + 2 = 5.",
+        "D. π có phải là một số hữu tỷ không?"
+      ],
+      "correct_index": 3,
+      "solution": "A là mệnh đề (đúng).\n\nB là mệnh đề (sai).\n\nC là mệnh đề (sai).\n\nD là một câu hỏi, không phải là một câu khẳng định."
+    }
+  ],
+  "contexts": [],
+  "used_model": "artifacts",
+  "created_at": "20260324T162549Z"
+}
