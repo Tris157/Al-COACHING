@@ -15,6 +15,7 @@ type ProgressData = {
   total_sessions: number;  // Now represents total exercises
   completed_sessions: number;  // Now represents correct exercises
   completion_percent: number;
+  completion_rate?: number;
   discipline_score: number;
   topics_mastered: number;
   weak_topics: number;
@@ -172,7 +173,7 @@ export default function HomePage() {
             <div className="flex justify-between items-start">
               <div>
                 <p className="text-sm text-gray-600 mb-2 font-medium">Tỷ lệ hoàn thành</p>
-                <p className="text-4xl font-bold text-gray-900 mb-1">{progress.completion_rate}%</p>
+                <p className="text-4xl font-bold text-gray-900 mb-1">{progress.completion_rate ?? progress.completion_percent}%</p>
                 <p className="text-xs text-purple-600">Tiến độ</p>
               </div>
               <div className="text-4xl animate-float">📊</div>
@@ -403,17 +404,17 @@ export default function HomePage() {
                 <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
                   <div 
                     className="bg-gradient-to-r from-blue-500 via-blue-600 to-indigo-600 h-4 rounded-full transition-all duration-1000 ease-out"
-                    style={{ width: `${progress.completion_rate}%` }}
+                    style={{ width: `${progress.completion_rate ?? progress.completion_percent}%` }}
                   ></div>
                 </div>
               </div>
               <div className={`mt-4 p-3 rounded-lg text-center font-medium ${
-                progress.completion_rate < 30 ? 'bg-orange-50 text-orange-700' : 
-                progress.completion_rate < 70 ? 'bg-blue-50 text-blue-700' :
+                (progress.completion_rate ?? progress.completion_percent) < 30 ? 'bg-orange-50 text-orange-700' : 
+                (progress.completion_rate ?? progress.completion_percent) < 70 ? 'bg-blue-50 text-blue-700' :
                 'bg-green-50 text-green-700'
               }`}>
-                {progress.completion_rate < 30 ? '💪 Hãy tiếp tục cố gắng!' : 
-                 progress.completion_rate < 70 ? '👍 Bạn đang làm tốt!' :
+                {(progress.completion_rate ?? progress.completion_percent) < 30 ? '💪 Hãy tiếp tục cố gắng!' : 
+                 (progress.completion_rate ?? progress.completion_percent) < 70 ? '👍 Bạn đang làm tốt!' :
                  '🌟 Xuất sắc! Tiếp tục phát huy!'}
               </div>
             </div>
